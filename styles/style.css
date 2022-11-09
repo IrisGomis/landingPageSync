@@ -1,0 +1,24 @@
+@import url(https://fonts.gstatic.com/s/opensans/v34/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWVAewA.woff);
+
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+body {
+    margin: 10%;
+}
+
+.navbar-brand {
+	width: 120;
+	height: 80;
+}
+
+h1 {
+    font-weight: bold;
+}
