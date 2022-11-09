@@ -27,3 +27,62 @@ body, html {
 h1 {
     font-weight: bold;
 }
+
+.btn {
+    border-radius:2rem !important;
+	background-color: #FF556E !important;
+}
+
+.navbar-custom{
+	background-color: #F7FAFD;
+}
+.bg-section-primary {
+	background-color: #F7FAFD;
+}
+
+.iphone {
+	position:relative;
+	z-index:3;
+	max-width:58rem;
+}
+.green-diamond {
+	position:absolute;
+	top:5rem;
+	width: 20px;
+	height: 20px;
+}
+
+.yellow-circle {
+	position: absolute;
+	top:10rem;
+	right: 4rem;
+	width: 40px;
+	height: 40px;
+}
+
+.white-left-circle {
+	position: absolute;
+	top: 10rem;
+	left: -27rem;
+	width:640px;
+	height:640px;
+	z-index:1;
+}
+
+.white-right-circle {
+	position: absolute;
+	top: 15rem;
+	right: -15rem;
+	width:408px;
+	height:408px;
+	z-index:1;
+}
+
+.blue-circle {
+	position: absolute;
+	top: 25rem;
+	left: 10rem;
+	width:96px;
+	height:96px;
+	z-index:2;
+}
