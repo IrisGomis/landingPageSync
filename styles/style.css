@@ -50,6 +50,7 @@ h1 {
 	top:5rem;
 	width: 20px;
 	height: 20px;
+	animation: animate 3s linear infinite;
 }
 
 .yellow-circle {
@@ -58,6 +59,7 @@ h1 {
 	right: 4rem;
 	width: 40px;
 	height: 40px;
+	animation: animate 3s linear infinite;
 }
 
 .white-left-circle {
@@ -85,4 +87,20 @@ h1 {
 	width:96px;
 	height:96px;
 	z-index:2;
+	animation: animate 3s linear infinite;
+}
+
+@keyframes animate{
+	0%{
+		filter: hue-rotate(0deg);
+	}
+	100%{
+		filter: hue-rotate(360deg);
+	}
+}
+
+.card-body{
+	font-family: "Open Sans";
+	font-size: bold;
+	margin-top: 5px;
 }
