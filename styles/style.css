@@ -86,7 +86,6 @@ h1 {
 	width:96px;
 	height:96px;
 	z-index:2;
-<<<<<<< HEAD
 	animation: animate 3s linear infinite;
 }
 
@@ -102,9 +101,7 @@ h1 {
 .card-body{
 	font-family: "Open Sans";
 	font-size: bold;
-	margin-top: 5px;
-}
-=======
+	margin-top: 10px;
 }
 
 .screenshot1 {
@@ -113,4 +110,3 @@ h1 {
 
 .screenCont1:hover .screenshot1 {-webkit-transform:scale(1.3);transform:scale(1.3);}
 .screenCont1 {overflow:hidden;}
->>>>>>> 5b93f36dd822baff58a047c81ad6b9a0c2843bf8
