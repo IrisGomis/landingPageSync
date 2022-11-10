@@ -22,7 +22,9 @@ body, html {
 .navbar-custom .navbar-brand.logo-image img {
     width: 6.6875rem;
     height: 2.25rem;
+	
 }
+
 
 h1 {
     font-weight: bold;
@@ -30,7 +32,7 @@ h1 {
 
 .btn {
     border-radius:2rem !important;
-	background-color: #FF556E !important;
+	/*background-color: #FF556E !important;*/
 }
 
 .navbar-custom{
@@ -40,24 +42,32 @@ h1 {
 	background-color: #F7FAFD;
 }
 
+.img-fluid{
+	max-width:100%;
+	height:auto;
+}
+
 .iphone {
 	position:relative;
 	z-index:3;
 	max-width:58rem;
+	animation-play-state: running;
 }
 .green-diamond {
 	position:absolute;
 	top:5rem;
 	width: 20px;
 	height: 20px;
+	animation: animate 3s linear infinite;
 }
 
 .yellow-circle {
 	position: absolute;
 	top:10rem;
-	right: 4rem;
+	right: 10rem;
 	width: 40px;
 	height: 40px;
+	animation: animate 3s linear infinite;
 }
 
 .white-left-circle {
@@ -81,8 +91,37 @@ h1 {
 .blue-circle {
 	position: absolute;
 	top: 25rem;
-	left: 10rem;
+	left: 15rem;
 	width:96px;
 	height:96px;
 	z-index:2;
+	animation: animate 3s linear infinite;
 }
+
+@keyframes animate{
+	0%{
+		filter: hue-rotate(0deg);
+	}
+	100%{
+		filter: hue-rotate(360deg);
+	}
+}
+
+.row{
+	animation-duration: 3s;
+  	animation-name: slidein;
+  	animation-iteration-count: 3;
+  	animation-direction: alternate;
+}
+
+@keyframes slidein {
+	from {
+	  margin-left:100%;
+	  width:300%
+	}
+  
+	to {
+	 margin-left:0%;
+	 width:100%;
+   }
+  }
