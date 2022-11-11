@@ -4,8 +4,9 @@
 *{
 	margin: 0;
 	padding: 0;
-	list-style: none;
 	text-decoration: none;
+	list-style:none;
+	list-style:none;
 	border: none;
 	outline: none;
 }
@@ -19,10 +20,18 @@ body, html {
 	height:100%;
 }
 
+.buttons {
+	width:74%;
+}
+.buttons {
+	width:74%;
+}
 .navbar-custom .navbar-brand.logo-image img {
     width: 6.6875rem;
     height: 2.25rem;
+	
 }
+
 
 h1 {
     font-weight: bold;
@@ -30,7 +39,10 @@ h1 {
 
 .btn {
     border-radius:2rem !important;
-	background-color: #FF556E !important;
+}
+
+.input {
+	/*border-radius: 0;*/
 }
 
 .navbar-custom{
@@ -40,10 +52,16 @@ h1 {
 	background-color: #F7FAFD;
 }
 
+.img-fluid{
+	max-width:100%;
+	height:auto;
+}
+
 .iphone {
 	position:relative;
 	z-index:3;
 	max-width:58rem;
+	animation-play-state: running;
 }
 .green-diamond {
 	position:absolute;
@@ -56,7 +74,7 @@ h1 {
 .yellow-circle {
 	position: absolute;
 	top:10rem;
-	right: 4rem;
+	right: 10rem;
 	width: 40px;
 	height: 40px;
 	animation: animate 3s linear infinite;
@@ -83,7 +101,7 @@ h1 {
 .blue-circle {
 	position: absolute;
 	top: 25rem;
-	left: 10rem;
+	left: 15rem;
 	width:96px;
 	height:96px;
 	z-index:2;
@@ -99,8 +117,76 @@ h1 {
 	}
 }
 
+<<<<<<< HEAD
 .card-body{
 	font-family: "Open Sans";
 	font-size: bold;
 	margin-top: 5px;
 }
+=======
+.row{
+	animation-duration: 3s;
+  	animation-name: slidein;
+  	animation-iteration-count: 3;
+  	animation-direction: alternate;
+}
+
+.screenshot1 {
+	max-height: 80%;
+}
+
+.screenshot2 {
+	max-height: 40%;
+	z-index:1;
+}
+
+.text2 {
+	z-index:2;
+}
+
+.buttons {
+	width:100%;
+}
+
+.screenCont1:hover .screenshot1 {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.screenCont1 {overflow:hidden;}
+
+.screenCont2:hover .screenshot2 {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.screenCont1 {overflow:hidden;}
+
+@keyframes slidein {
+	from {
+	  margin-left:100%;
+	  width:300%
+	}
+  
+	to {
+	 margin-left:0%;
+	 width:100%;
+   }
+  }
+
+
+.screenshot1 {
+	max-height: 80%;
+}
+
+.screenshot2 {
+	max-height: 40%;
+	z-index:1;
+}
+
+.text2 {
+	z-index:2;
+}
+
+.buttons {
+	width:100%;
+}
+
+.screenCont1:hover .screenshot1 {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.screenCont1 {overflow:hidden;}
+
+.screenCont2:hover .screenshot2 {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.screenCont1 {overflow:hidden;}
+>>>>>>> 5448b151cf7a7125a19cb874368463b1ce534e00
