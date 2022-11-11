@@ -117,13 +117,7 @@ h1 {
 	}
 }
 
-<<<<<<< HEAD
-.card-body{
-	font-family: "Open Sans";
-	font-size: bold;
-	margin-top: 5px;
-}
-=======
+
 .row{
 	animation-duration: 3s;
   	animation-name: slidein;
@@ -189,4 +183,4 @@ h1 {
 
 .screenCont2:hover .screenshot2 {-webkit-transform:scale(1.3);transform:scale(1.3);}
 .screenCont1 {overflow:hidden;}
->>>>>>> 5448b151cf7a7125a19cb874368463b1ce534e00
+
